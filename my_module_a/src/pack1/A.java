@@ -1,0 +1,23 @@
+package pack1;
+
+import pack2.B;
+import pack3.C;
+
+public class A {
+	//메소드 선언 
+	public void method() {
+		System.out.println("A 메소드실행");
+		B b = new B();
+		b.method();
+	}
+//	my_module_b 모듈의 pack3.c타입 리턴 
+	public C getc() {
+		C c = new C();
+		return c;
+	}
+	
+	
+	
+	
+	
+}
